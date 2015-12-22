@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'barden89',
-	'database' => 'ibmclup',
+	'hostname' => 'us-cdbr-iron-east-03.cleardb.net', 
+	'username' => 'b5a19612166a2e',		
+	'password' => 'c7a5d794',	
+	'database' => 'ad_bec3cc534db4557',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -94,3 +94,30 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+/* localhost için
+
+
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'localhost', 
+	'username' => 'root',		
+	'password' => 'barden89',	
+	'database' => 'ibmclup',	
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
+
+*/
